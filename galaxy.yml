@@ -1,0 +1,27 @@
+namespace: patebash
+name: my_own_collection
+version: 1.0.0
+readme: README.md
+
+authors:
+  - Patebash
+
+description: >
+  Ansible collection с кастомным модулем и ролью для создания и управления текстовыми файлами на хостах.
+
+license:
+  - GPL-3.0-or-later
+
+tags:
+  - ansible
+  - linux
+  - automation
+  - files
+  - devops
+
+dependencies: {}
+
+repository: https://github.com/patebash/my_own_collection
+documentation: https://github.com/patebash/my_own_collection/blob/main/README.md
+homepage: https://github.com/patebash/my_own_collection
+issues: https://github.com/patebash/my_own_collection/issues

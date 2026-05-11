@@ -1,0 +1,12 @@
+---
+- name: Test role
+  hosts: localhost
+  gather_facts: false
+
+  remote_user: root
+
+  collections:
+    - patebash.my_own_collection
+
+  roles:
+    - create_test_file
